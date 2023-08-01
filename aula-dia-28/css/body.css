@@ -1,0 +1,38 @@
+ body {
+            background: rgb(143, 141, 141);
+        }
+      h1 {
+           color:rgb(130, 56, 199); /* altera a cor do letra do titulo */
+           background-color: white;/* altera a cor do fundo do titulo */
+           text-align: center; /* centraliza o titulo */
+           font-size: 40pt; /* tamanho do titulo */
+           border: 5px solid rgb(231, 229, 231); /* cor do borde do titulo */
+           border-radius: 20px;/* tamanho do borde do titulo */
+           margin-top: 80px; /* encima do titulo */
+           margin-bottom: 80px; /* direita do titulo*/
+           margin-left: 50px; /* esquerda do titulo */
+           margin-right: 50px;/* abaixo do titulo */
+           padding: 10px 0px; /* espaço dentro da caixa */
+
+        }
+     
+      h2  {
+        background: white(77, 36, 33); /* cor do fundo dos subtitulos */
+        color: rgb(255, 255, 255); /* cor da letra dos subtitulos */
+        border-radius: 10px; /* tamanho do borde do fundo dos subtitulos  */
+        box-shadow: 3px 3px 5px white; /* cor da sombra das bordas dos subtitulos,tamanho da margen das bordas */
+        
+        }
+    
+        #subtitulo1 {
+          background: blue;
+        }
+    
+        #subtitulo2 {
+          background: green;
+        }
+        
+        .sombra {
+            box-shadow: 5px 5px 8px white, 0, 0;
+
+        }

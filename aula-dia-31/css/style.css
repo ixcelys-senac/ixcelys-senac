@@ -1,0 +1,44 @@
+@charset "UFT-8";
+
+* {/* Seletor Global */
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    text-align: center;
+}
+
+#perfil { 
+margin-bottom: 24px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    border: 3px solid plum;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding:10px;
+}
+
+
+#perfil img{
+    height:150px;
+    width:150px;
+}
+
+#linksSocial ion-icon{
+    height: 30px;
+    width:30px;
+}
+
