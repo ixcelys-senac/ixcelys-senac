@@ -6,39 +6,78 @@
     
 }
 
+body * {
+    color: white;
+}
+ body {
+    background: url('../assets/bg-desktop.jpg') no-repeat top center/cover;
+    height: 100vh;
+}
+
 #container {
     text-align: center;
+    width: 100%;
+    max-width: 588px; ;
+    margin: 56px auto 0;
+  
 }
 
 #perfil { 
-margin-bottom: 24px;
+    margin-bottom: 24px;
 }
-
+#perfil img{
+    height:150px;
+}
 ul {
+    list-style:none;
     display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 24px;
-
+    
 }
-
 ul li a {
     text-decoration: none;
-    border: 3px solid plum;
+    background: black;
+    border: 1px solid plum;
     border-radius: 5px;
     display: flex;
     justify-content: center;
-    padding:10px;
+    padding: 16px;
+    margin: 0 25px;
 }
-
-
-#perfil img{
-    height:150px;
-    width:150px;
-}
-
+ ul li a:hover{
+    border: 1.5px solid white;
+    background: plum;
+ }
 #linksSocial ion-icon{
-    height: 30px;
-    width:30px;
+    height: 25px;
+    width:25px;
 }
+
+#linksSocial { 
+    display: flex;
+    justify-content:center;
+    margin: 56px auto; 
+}
+
+#linksSocial a{
+    font-size: 24px;
+    display: flex;
+    border-radius: 50%;
+    padding: 16px;
+}
+
+#linksSocial a:hover{
+    background: plum;
+}
+
+/* media queries */
+@media (max-width: 700px) {
+    body {
+        background: url('../assets/bg-mobile.jpg') no-repeat top center/cover;
+    }
+}
+
+
 
